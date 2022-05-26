@@ -809,7 +809,7 @@ header {
   }
 }
 
-.articles__box:hover h4 {
+.articles__box:hover h3 {
   color: var(--lime-green);
 }
 
