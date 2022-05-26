@@ -102,6 +102,9 @@ header {
                     transform: scaleX(0);
                     transform-origin: left;
                     transition: all .3s;
+                    @include sm{
+                        display: none;
+                    }
                 }
                 &:hover::before{
                     opacity: 1;

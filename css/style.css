@@ -282,6 +282,12 @@ header {
   transition: all .3s;
 }
 
+@media (max-width: 576px) {
+  .nav-container ul li a::before {
+    display: none;
+  }
+}
+
 .nav-container ul li a:hover::before {
   opacity: 1;
   -webkit-transform: scaleX(1);
@@ -827,10 +833,15 @@ header {
 .articles__box-text span {
   padding-bottom: 1.2rem;
   display: block;
+  font-size: 1rem;
+  color: var(--font-color);
 }
 
-.articles__box-text h4 {
+.articles__box-text h3 {
   padding-bottom: 1.2rem;
+  font-weight: 300;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
   -webkit-transition: .3s all ease;
   transition: .3s all ease;
 }
