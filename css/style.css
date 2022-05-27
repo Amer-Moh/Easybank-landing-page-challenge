@@ -68,6 +68,12 @@ body {
   background-color: var(--very-light-gray);
 }
 
+@media (max-width: 1080px) {
+  body {
+    padding-top: 6.5rem;
+  }
+}
+
 header, main, footer {
   font-family: var(--main-font);
 }
@@ -636,7 +642,7 @@ header {
 
 @media (max-width: 1080px) {
   .hero-section__bg {
-    right: -75rem;
+    right: -77rem;
   }
 }
 
